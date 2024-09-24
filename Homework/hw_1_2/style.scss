@@ -1,4 +1,4 @@
-@import 'vars';
+@import "vars";
 
 * {
   margin: 0;
@@ -61,6 +61,14 @@ body {
   font-weight: 700;
   line-height: 16.8px;
   color: $colorSelectSite;
+}
+
+.product-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 48px;
 }
 
 .product {

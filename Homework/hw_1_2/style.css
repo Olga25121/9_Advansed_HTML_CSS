@@ -58,6 +58,14 @@ body {
   color: #f16d7f;
 }
 
+.product-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 48px;
+}
+
 .product {
   width: 370px;
   display: flex;
