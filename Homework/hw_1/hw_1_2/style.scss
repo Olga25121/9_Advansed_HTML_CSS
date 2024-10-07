@@ -199,20 +199,17 @@ li {
     justify-content: space-between;
     background-color: $backSlider;
     border: 1px solid $borderSlider;
-
     &__btn {
         padding: 8px;
         background-color: $btnSlider;
         transition: all 0.3s;
     }
-
     &__btn:hover path {
-        fill:$colorSite
+        fill: $colorSite;
     }
 }
-.btn_2:hover path {
-    fill:$colorSite
-}
+
+
 
 // блок product_description
 
